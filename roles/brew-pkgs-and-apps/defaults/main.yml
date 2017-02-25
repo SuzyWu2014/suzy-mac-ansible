@@ -2,6 +2,14 @@
   homebrew_installed_packages:
     - wget
     - tree
+    - ntfs-3g
+    - mysql
+    - python3
+    - pyenv
+    - node
+    - zsh
+    - zsh-completions
+    - vim
 
   homebrew_upgrade_all_packages: no
 
@@ -24,8 +32,9 @@
     - virtualbox
     - vagrant
     - vagrant-manager
-    - bettersnaptool
     - evernote
     - texmaker
+    - qlmarkdown
+    - quicklook-json
 
   homebrew_cask_appdir: /Applications
