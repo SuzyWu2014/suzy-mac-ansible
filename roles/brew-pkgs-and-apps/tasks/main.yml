@@ -14,7 +14,9 @@
 
   # Brew.
   - name: Ensure configured homebrew packages are installed.
-    homebrew: "name={{ item }} state=present"
+    homebrew:
+      name: "{{ item }}"
+      state: present
     with_items: "{{ homebrew_installed_packages }}"
 
   - name: Upgrade all homebrew packages (if configured).
