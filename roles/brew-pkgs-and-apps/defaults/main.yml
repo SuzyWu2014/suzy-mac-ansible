@@ -11,5 +11,21 @@
 
   homebrew_cask_apps:
     - firefox
+    - google-chrome
+    - iterm2
+    - slack
+    # sublime text 3 by default
+    - sublime-text
+    - grammarly
+    - the-unarchiver
+    # java 8
+    - java
+    - docker
+    - virtualbox
+    - vagrant
+    - vagrant-manager
+    - bettersnaptool
+    - evernote
+    - texmaker
 
   homebrew_cask_appdir: /Applications

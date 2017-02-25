@@ -1,3 +1,3 @@
 ---
   dependencies:
-    - { role: install-homebrew }
+    - { role: install-homebrew, become: yes }
