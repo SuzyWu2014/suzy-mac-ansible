@@ -36,5 +36,6 @@
     - texmaker
     - qlmarkdown
     - quicklook-json
+    - osxfuse
 
   homebrew_cask_appdir: /Applications
