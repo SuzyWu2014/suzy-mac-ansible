@@ -3,4 +3,4 @@
   connection: local
 
   roles:
-    - {role: install-homebrew}
+    - { role: brew-pkgs-and-apps }
