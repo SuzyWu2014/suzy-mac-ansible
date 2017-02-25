@@ -1,4 +1,10 @@
 ---
+ - name: Add zsh to /etc/shells
+   lineinfile:
+    line: /usr/local/bin/zsh
+    dest: /etc/shells
+    state: present
+
  - name: change to use zsh
    command: chsh -s /usr/local/bin/zsh
 
