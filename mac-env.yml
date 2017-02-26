@@ -6,3 +6,4 @@
     - { role: brew-pkgs-and-apps }
     - { role: powerline-fonts, become: yes }
     - { role: config-zsh, become: yes }
+    - { role: config-iterm2, become: yes }
