@@ -1,5 +1,5 @@
 ---
-  name: download iterm2 themes
-  git:
-    repo: https://github.com/mbadolato/iTerm2-Color-Schemes.git
-    dest: /tmp/iTerm2-Color-Schemes
+  - name: download iterm2 themes
+    git:
+      repo: https://github.com/mbadolato/iTerm2-Color-Schemes.git
+      dest: /tmp/iTerm2-Color-Schemes
