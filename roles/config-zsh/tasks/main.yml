@@ -5,9 +5,6 @@
     dest: /etc/shells
     state: present
 
- - name: change to use zsh
-   command: chsh -s /usr/local/bin/zsh
-
  - name: download oh-my-zsh
    git:
     repo: git://github.com/robbyrussell/oh-my-zsh.git
