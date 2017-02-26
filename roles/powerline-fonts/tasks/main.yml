@@ -5,7 +5,9 @@
       dest: /tmp/fonts
 
   - name: install fonts
-    command: bash /tmp/fonts/install.sh
+    command: ./install.sh
+    args:
+      chdir: /tmp/fonts
 
   - name: git clone powerline
     git:
