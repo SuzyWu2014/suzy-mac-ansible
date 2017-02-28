@@ -5,7 +5,7 @@
       dest: /tmp/fonts
 
   - name: install fonts
-    command: ./install.sh
+    command: /usr/local/bin/zsh install.sh
     args:
       chdir: /tmp/fonts
 

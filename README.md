@@ -69,6 +69,13 @@ Modify `roles/brew-pkgs-and-apps/defaults/main.yml` as needed.
 
 + 1. Change bash to zsh. `chsh zsh `
 
+```
+# Change Shell
+chsh -s /usr/local/bin/zsh
+
+
+```
+
 ### Sublime Text 3
 
 See [Sublime Text 3 Configuration](http://suzywu2014.github.io/ubuntu/2017/02/18/Ubuntu-sublime3)
