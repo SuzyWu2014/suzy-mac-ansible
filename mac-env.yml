@@ -7,4 +7,3 @@
     - { role: powerline-fonts, become: yes }
     - { role: config-zsh, become: yes }
     - { role: config-iterm2, become: yes }
-    - { role: config-sublime3, become: yes }

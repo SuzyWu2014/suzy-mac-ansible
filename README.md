@@ -19,7 +19,6 @@ Edit `roles/brew-pkgs-and-apps/defaults/main.yml`
   homebrew_installed_packages:
     - wget
     - tree
-    - ntfs-3g
     - mysql
     - python3
     - pyenv
@@ -27,6 +26,7 @@ Edit `roles/brew-pkgs-and-apps/defaults/main.yml`
     - zsh
     - zsh-completions
     - vim
+    - homebrew/fuse/ntfs-3g
 
   homebrew_upgrade_all_packages: no
 
@@ -53,6 +53,10 @@ Edit `roles/brew-pkgs-and-apps/defaults/main.yml`
     - texmaker
     - qlmarkdown
     - quicklook-json
+    - osxfuse
+    - pycharm
+
+  homebrew_cask_appdir: /Applications
 ```
 
 Additional Configurations:
