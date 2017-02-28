@@ -9,7 +9,7 @@
     - zsh
     - zsh-completions
     - vim
-    - homebrew/fuse/ntfs-3g
+    - ntfs-3g # require osxfuse installed
 
   homebrew_upgrade_all_packages: no
 
@@ -25,7 +25,6 @@
     - slack
     # sublime text 3 by default
     - sublime-text
-    - grammarly
     - the-unarchiver
     # java 8
     - java
@@ -35,11 +34,13 @@
     - vagrant-manager
     - evernote
     - alfred
+    - caffeine
     - texmaker
-    - qlmarkdown
     - quicklook-json
-    - osxfuse
     - pycharm
-
+    # ocassionaly failed
+    - grammarly
+    - osxfuse
+    - qlmarkdown
 
   homebrew_cask_appdir: /Applications
