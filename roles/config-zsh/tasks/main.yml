@@ -22,3 +22,6 @@
    copy:
     src: zshrc
     dest: "{{ ansible_env.HOME }}/.zshrc"
+
+ - name: change to zsh
+   command: chsh -s /usr/local/bin/zsh
