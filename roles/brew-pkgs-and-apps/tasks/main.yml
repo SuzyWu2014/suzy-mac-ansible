@@ -17,6 +17,9 @@
     loop_control:
       loop_var: item
       label: "{{ item }}"
+    ignore_errors: yes
+    notify:
+      - brew cask crean up
 
   # Brew.
   - name: Ensure configured homebrew packages are installed.
