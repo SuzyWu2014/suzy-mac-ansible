@@ -13,7 +13,7 @@ sudo pip install ansible
 
 ## Included Applications / Configuration
 
-Edit `roles/brew-pkgs-and-apps/defaults/main.yml`
+Modify `roles/brew-pkgs-and-apps/defaults/main.yml` as needed.
 
 ```yaml
   homebrew_installed_packages:
@@ -59,7 +59,16 @@ Edit `roles/brew-pkgs-and-apps/defaults/main.yml`
   homebrew_cask_appdir: /Applications
 ```
 
+## Manual Configurations
+
+### Applications
+
++ Install `BetterSnapTools`
+
+### Iterm2 Appearance
+
 Additional Configurations:
 - Sublime Text 3
 - oh my zsh
 
+### Sublime Text 3
