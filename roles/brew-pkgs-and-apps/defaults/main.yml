@@ -16,6 +16,7 @@
   homebrew_taps:
     - homebrew/core
     - caskroom/cask
+    - homebrew/fuse
 
   homebrew_cask_apps:
     - firefox
