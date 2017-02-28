@@ -33,10 +33,12 @@
     - vagrant
     - vagrant-manager
     - evernote
+    - alfred
     - texmaker
     - qlmarkdown
     - quicklook-json
     - osxfuse
     - pycharm
+
 
   homebrew_cask_appdir: /Applications

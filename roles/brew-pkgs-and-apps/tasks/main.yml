@@ -4,13 +4,19 @@
     homebrew_tap: "tap={{ item }} state=present"
     with_items: "{{ homebrew_taps }}"
 
-  # Cask.
+  - name: "Run this task before homebrew_cask module, so that sudo cache gets refreshed."
+    command: "echo none"
+
+    # Cask.
   - name: Install configured cask applications.
     homebrew_cask:
       name: "{{ item }}"
       state: present
       install_options: "appdir={{ homebrew_cask_appdir }}"
     with_items: "{{ homebrew_cask_apps }}"
+    loop_control:
+      loop_var: item
+      label: "{{ item }}"
 
   # Brew.
   - name: Ensure configured homebrew packages are installed.
@@ -18,6 +24,9 @@
       name: "{{ item }}"
       state: present
     with_items: "{{ homebrew_installed_packages }}"
+    loop_control:
+      loop_var: item
+      label: "{{ item }}"
 
   - name: Upgrade all homebrew packages (if configured).
     homebrew: update_homebrew=yes upgrade_all=yes

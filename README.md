@@ -67,8 +67,8 @@ Modify `roles/brew-pkgs-and-apps/defaults/main.yml` as needed.
 
 ### Iterm2 Appearance
 
-Additional Configurations:
-- Sublime Text 3
-- oh my zsh
++ 1. Change bash to zsh. `chsh zsh `
 
 ### Sublime Text 3
+
+See [Sublime Text 3 Configuration](http://suzywu2014.github.io/ubuntu/2017/02/18/Ubuntu-sublime3)
