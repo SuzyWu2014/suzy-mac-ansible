@@ -1,8 +1,9 @@
 ---
   - name: check if Homebrew is installed
-    shell: brew -v
+    stat:
+      path: /usr/local/bin/brew
     register: brew_check
 
   - name: install Homebrew
     shell: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    when: brew_check.stderr.find('command not found') > -1
+    when: not brew_check.stat.exists
