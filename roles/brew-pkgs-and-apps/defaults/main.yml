@@ -38,6 +38,7 @@
     - texmaker
     - quicklook-json
     - pycharm
+    - intellij-idea
     # ocassionaly failed
     - grammarly
     - osxfuse # require to restart system after installation to take effect

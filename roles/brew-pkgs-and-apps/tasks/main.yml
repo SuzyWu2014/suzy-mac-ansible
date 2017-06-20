@@ -19,7 +19,7 @@
       label: "{{ item }}"
     ignore_errors: yes
     notify:
-      - brew cask crean up
+      - brew cask clean up
 
   # Brew.
   - name: Ensure configured homebrew packages are installed.
