@@ -1,3 +1,6 @@
 ---
   - name: brew cask clean up
     command: brew cask cleanup
+
+  - name: adds the install directory to Alfred’s search path
+    command: brew cask alfred link
