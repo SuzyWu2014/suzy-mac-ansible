@@ -43,5 +43,6 @@
     - grammarly
     - osxfuse # require to restart system after installation to take effect
     - qlmarkdown
+    - spotify
 
   homebrew_cask_appdir: /Applications

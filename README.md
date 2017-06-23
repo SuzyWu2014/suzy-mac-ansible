@@ -58,6 +58,11 @@ Modify `roles/brew-pkgs-and-apps/defaults/main.yml` as needed.
 
   homebrew_cask_appdir: /Applications
 ```
+## Run
+
+```
+ansible-playbook mac-env.yml --ask-sudo-pass
+```
 
 ## Manual Configurations
 
